@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Generator with Abir - YouTube Tag Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tag Generator with Abir</h1>
+        <p class="subtitle">Generate the best tags for your YouTube videos</p>
+        
+        <div class="input-section">
+            <input type="text" id="videoTitle" placeholder="Enter your video title or keywords">
+            <button onclick="generateTags()">Generate Tags</button>
+        </div>
+
+        <div class="tags-container" id="tagsContainer">
+            <!-- Tags will be displayed here -->
+        </div>
+
+        <div class="copy-section">
+            <textarea id="tagsList" readonly></textarea>
+            <button onclick="copyTags()">Copy All Tags</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
